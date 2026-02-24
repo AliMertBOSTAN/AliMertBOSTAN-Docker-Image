@@ -1,0 +1,16 @@
+{
+  "name": "hardhat",
+  "author": {
+    "name": "Ali Mert BOSTAN",
+    "email": "alimert930@gmail.com"
+  },
+  "version": "1.0.0",
+  "scripts": {
+    "run": "npx hardhat node & npx hardhat run scripts/deploy.ts --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ignition": "^3.0.7",
+    "@openzeppelin/contracts": "^5.4.0"
+  },
+  "type": "module"
+}

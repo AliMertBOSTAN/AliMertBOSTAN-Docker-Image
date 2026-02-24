@@ -1,0 +1,11 @@
+node_modules
+.git
+.gitignore
+artifacts
+cache
+typechain
+typechain-types
+coverage
+coverage.json
+ignition/deployments
+*.md

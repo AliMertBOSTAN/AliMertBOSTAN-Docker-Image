@@ -1,0 +1,4 @@
+# Shell scriptleri her zaman LF (Unix) satır sonları kullanır
+*.sh text eol=lf
+Dockerfile text eol=lf
+.dockerignore text eol=lf
